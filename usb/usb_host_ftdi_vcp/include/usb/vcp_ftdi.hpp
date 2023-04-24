@@ -12,7 +12,7 @@
 #include "usb/cdc_acm_host.h"
 
 #define FTDI_VID             (0x0403)
-#define FT232_PID            (0x6001)
+#define FT232_PID            (0xcd18) // Abaxis Piccolo Xpress, FT232R (Original was 0x6001)
 #define FT231_PID            (0x6015)
 
 #define FTDI_CMD_RESET        (0x00)
